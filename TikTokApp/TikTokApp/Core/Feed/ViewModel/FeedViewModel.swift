@@ -10,6 +10,7 @@ import Foundation
 class FeedViewModel: ObservableObject {
     @Published var posts = [Post]()
     
+    // Urls that are using HTTPs now
     let videoUrls = [
         "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4",
         "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
